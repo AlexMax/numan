@@ -1,0 +1,347 @@
+defaultmap{
+	nocrouch
+	nojump
+	sky1 = "SKYBLZ_2"
+	}
+
+clearepisodes
+
+// ------------------------------------------------------------------------- //
+// Begin Episode Definition                                                  //
+// ------------------------------------------------------------------------- //
+
+episode MAP01{
+	picname = "E1TITLE"
+	key = "1"
+	}
+	
+episode MAP11{
+	picname = "E2TITLE"
+	key = "2"
+	}
+	
+episode MAP19{
+	picname = "E3TITLE"
+	key = "3"
+	}
+
+// ------------------------------------------------------------------------- //
+// Begin Cluster Definition                                                  //
+// ------------------------------------------------------------------------- //
+
+clusterdef 1{
+	exittextislump
+	exittext = "E1TEXT1"
+	music = "D_READ_M"
+	pic = "e1pic1"
+}
+
+clusterdef 2{
+	exittextislump
+	exittext = "E1TEXT2"
+	music = "D_READ_M"
+	pic = "e1pic2"
+}
+
+clusterdef 3{
+	exittextislump
+	exittext = "E2TEXT1"
+	music = "D_READ_M"
+	pic = "e2pic1"
+}
+
+clusterdef 4{
+	exittextislump
+	exittext = "E2TEXT2"
+	music = "D_READ_M"
+	pic = "e2pic2"
+}
+
+clusterdef 5{
+	exittextislump
+	exittext = "E3TEXT1"
+	music = "D_READ_M"
+	pic = "e3pic1"
+}
+
+clusterdef 6{
+	exittextislump
+	exittext = "E3TEXT2"
+	music = "D_READ_M"
+	pic = "e3pic2"
+}
+
+//Episode 1	Cluster 1
+map MAP01 "The Ancient Navajo Wolf Warp"{
+	titlepatch = "CWILV00"
+	next = "MAP02"
+	music = "D_RUNNIN"
+	par = 70
+	cluster = 1
+	}
+	
+map MAP02 "Sanctum of the Wastes"{
+	titlepatch = "CWILV01"
+	next = "MAP03"
+	music = "D_STALKS"
+	par = 180
+	cluster = 1
+	}
+	
+map MAP03 "Arachnotron Arrival"{
+	titlepatch = "CWILV02"
+	next = "MAP04"
+	music = "D_COUNTD"
+	par = 195
+	cluster = 1
+	}
+
+
+map MAP04 "Bad Medicine Men"{
+	titlepatch = "CWILV03"
+	next = "MAP05"
+	music = "D_BETWEE"
+	par = 165
+	cluster = 1
+	}
+
+map MAP05 "Last Refuge of the Anasazi"{
+	titlepatch = "CWILV04"
+	next = "MAP06"
+	music = "D_DOOM"
+	par = 255
+	cluster = 1
+	}
+
+map MAP06 "Sinkhole Showdown"{
+	titlepatch = "CWILV05"
+	next = "MAP07"
+	music = "D_THE_DA"
+	par = 210
+	cluster = 1
+	}
+
+map MAP07 "Dare To Fly Where Eagles Soar"{
+	titlepatch = "CWILV06"
+	next = "MAP08"
+	music = "D_SHAWN"
+	par = 315
+	cluster = 1
+	}
+
+
+map MAP08 "Ancient Aliens"{
+	titlepatch = "CWILV07"	
+	next = "MAP09"
+	music = "D_DDTBLU"
+	par = 600
+	cluster = 1
+	}
+// Episode 1 Cluster 2
+map MAP09 "The Nectar Flow"{
+	titlepatch = "CWILV08"	
+	next = "MAP10"
+	music = "D_IN_CIT"
+	par = 960
+	cluster = 2
+	}
+
+map MAP10 "Gift of Denial"{
+	titlepatch = "CWILV09"
+	next = endgame{
+		pic = "credit"
+		music = "D_READ_M"
+		}
+	music = "D_DEAD"
+	par = 480
+	cluster = 2
+	}
+
+//Episode 2 Cluster 1
+map MAP11 "On The Origin of Spacies"{
+	titlepatch = "CWILV10"
+	next = "MAP12"
+	music = "D_STLKS2"
+	par = 240
+	cluster = 3
+	}
+	
+map MAP12 "Magenta Heat"{
+	titlepatch = "CWILV11"
+	next = "MAP13"
+	music = "D_THEDA2"
+	par = 180
+	cluster = 3
+	}
+
+map MAP13 "Polychromatic Terrace"{
+	titlepatch = "CWILV12"
+	next = "MAP14"
+	music = "D_DOOM2"
+	par = 540
+	cluster = 3
+	}
+
+map MAP14 "Blazing Boulevard"{
+	titlepatch = "CWILV13"
+	next = "MAP15"
+	music = "D_DDTBL2"
+	par = 360
+	cluster = 3
+	}
+
+map MAP15 "Wormhole Junction"{
+	titlepatch = "CWILV14"
+	next = "MAP16"
+	secretnext = "MAP31"
+	music = "D_RUNNI2"
+	par = 450
+	cluster = 3
+	}
+
+map MAP16 "Leave Your Sol Behind"{
+	titlepatch = "CWILV15"
+	next = "MAP17"
+	music = "D_DEAD2"
+	par = 780
+	cluster = 3
+	}
+
+// Episode 2 Cluster 2
+map MAP17 "Daylight Under a Dark Sol"{
+	titlepatch = "CWILV16"
+	next = "MAP18"
+	secretnext = "MAP31"
+	music = "D_STLKS3"
+	par = 480
+	cluster = 4
+	}
+	
+map MAP18 "Illuminati Revealed"{
+	titlepatch = "CWILV17"
+	next = endgame{
+		pic = "credit"
+		music = "D_READ_M"
+		} 
+	music = "D_ROMERO"
+	par = 210
+	cluster = 4
+	}
+
+//Episode 3 Cluster 1
+map MAP19 "Crash Landing"{
+	titlepatch = "CWILV18"
+	next = "MAP20"
+	music = "D_SHAWN2"
+	par = 270
+	cluster = 5
+	}
+	
+map MAP20 "Code"{
+	titlepatch = "CWILV19"
+	next = "MAP21"
+	music = "D_MESSAG"
+	par = 330
+	cluster = 5
+	}
+
+map MAP21 "Cyberbullying: Beyond Earth"{
+	titlepatch = "CWILV20"
+	next = "MAP22"
+	music = "D_COUNT2"
+	par = 480
+	cluster = 5
+	}
+	
+map MAP22 "Acerola-Orion"{
+	titlepatch = "CWILV21"
+	next = "MAP23"
+	music = "D_DDTBL3"
+	par = 540
+	cluster = 5
+	}
+
+map MAP23 "Trinary Temple"{
+	titlepatch = "CWILV22"
+	next = "MAP24"
+	music = "D_AMPIE"
+	par = 1200
+	cluster = 5
+	}
+
+map MAP24 "Culture Shock"{
+	titlepatch = "CWILV23"
+	sky1 = "KS_CLOU5"
+	sky2 = "KS_CLOU5"
+	next = "MAP25"
+	music = "D_THEDA3"
+	par = 420
+	cluster = 5
+	}
+	
+map MAP25 "Xenoarboreum"{
+	titlepatch = "CWILV24"
+	next = "MAP26"
+	music = "D_ADRIAN"
+	par = 510
+	cluster = 5
+	}
+
+map MAP26 "Egyptian Metaphysics"{
+	titlepatch = "CWILV25"
+	next = "MAP27"
+	music = "D_MESSG2"
+	par = 300
+	cluster = 5
+	}
+
+map MAP27 "Kingdom of the Crystal Skulls"{
+	titlepatch = "CWILV26"
+	next = "MAP28"
+	music = "D_ROMER2"
+	par = 540
+	cluster = 5
+	}
+
+map MAP28 "Floating Arena"{
+	titlepatch = "CWILV27"
+	next = "MAP29"
+	music = "D_TENSE"
+	par = 390
+	cluster = 5
+	}
+
+map MAP29 "The Ones Behind it All"{
+	titlepatch = "CWILV28"
+	next = "MAP30"
+	music = "D_SHAWN3"
+	par = 660
+	cluster = 5
+	}
+
+map MAP30 "The End"{
+	titlepatch = "CWILV29"
+	next = "ENDGAMEC"
+	music = "D_OPENIN"
+	par = 60
+	cluster = 6
+	sky1 = "skyblz19"
+	}
+
+//Secret Maps
+map MAP31 "Grey Dwarf"{
+	titlepatch = "CWILV30"
+	next = "MAP16"
+	secretnext = "MAP32"
+	music = "D_EVIL"
+	par = 960
+	cluster = 3
+	}
+	
+map MAP32 "Ossuarium Exoterre"{
+	titlepatch = "CWILV31"
+	next = "MAP16"
+	music = "D_ULTIMA"
+	par = 450
+	cluster = 3
+	}

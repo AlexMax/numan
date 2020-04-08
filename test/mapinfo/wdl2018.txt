@@ -1,0 +1,127 @@
+map MAP01 "Red Shift - CORE36"
+ sky1 sky8 0.0
+ music d_doom1
+ 
+map MAP02 "Not Kansas - ZDU34"
+ sky1 skyessl1 0.0
+ music d_shinob
+ 
+map MAP03 "Something Average - RALPH01"
+ sky1 sky7 0.0
+ music d_hydro
+ 
+map MAP04 "R's...Magical Ice Forts - ZDCTF04"
+ sky1 sky8 0.0
+ music d_doom2
+ 
+map MAP05 "Data Core Delta - CORE01"
+ sky1 rsky6 0.0
+ music d_launch
+ 
+map MAP06 "Lazarus Revisited - SMARTCTF01"
+ sky1 skyhx1c 0.0
+ music d_mk
+ 
+map MAP07 "Obsidian Outpost - CORE09"
+ sky1 SPSK1 0.2
+ music d_mmx3
+ 
+map MAP08 "Something Epic - ZDCTF08"
+ sky1 sky8 0.0
+ music d_doom3
+ 
+map MAP09 "Compulsive Simplicity - CORE27"
+ sky1 sky8 0.0
+ music d_rocket
+ 
+map MAP10 "Scarydarkfast - THIRTY16-10"
+ sky1 sky1 0.0
+ music d_dday
+ 
+map MAP11 "Toxic Refineres II - CORE29"
+ sky1 sky3 0.0
+ music d_spin
+ 
+map MAP12 "N's...Manse of Destruct. - THIRTY4-16"
+ sky1 sky32 0.0
+ music d_toxic
+ 
+map MAP13 "Grayscale - NATI02"
+ sky1 STRYD1 0.0
+ music d_mmx3
+ 
+map MAP14 "Mephitic Waste - CORE26"
+ sky1 STRYC1 0.0
+ music d_launch
+ 
+map MAP15 "Really Freakin Fast - RFFMCTF01"
+ sky1 STRYD1 0.0
+ music d_shinob
+ 
+map MAP16 "Return To Phobos - ZDCTF16"
+ sky1 rsky6 0.0
+ music d_mk
+ 
+map MAP17 "Buntaluffigus - THIRTY4-17"
+ sky1 sky32 0.0
+ music d_mmx3
+ 
+map MAP18 "Towering Gardens - CORE24"
+ sky1 stsky7 0.0
+ music d_doom3
+ 
+map MAP19 "Collision - IDLCONT11-20"
+ sky1 sky10 0.0
+ music d_hydro
+ 
+map MAP20 "Cold Sweats - ZDECTF2-01"
+ sky1 stwall 0.0
+ music d_dday
+ 
+map MAP21 "Charon Orbit - VELOCTF31"
+ sky1 dskyesl1 0.0
+ music d_doom1
+ 
+map MAP22 "Gargantuan Retarded - THIRTY7-22"
+ sky1 skystr1 0.0
+ music d_doom2
+ 
+map MAP23 "Mercurial - RAGECTF10"
+ sky1 skyhx1c 0.0
+ music d_hydro
+ 
+map MAP24 "Sanctum - RAGECTF20"
+ sky1 skyessl1 0.0
+ music d_shinob
+ 
+map MAP25 "Infection - RAGECTF21"
+ sky1 dksky7 0.0
+ music d_toxic
+ 
+map MAP26 "Medieval - FRANK01"
+ sky1 sky10 0.0
+ music d_shinob
+ 
+map MAP27 "Titania Base - CORE28"
+ sky1 skyessl1 0.0
+ music d_rocket
+ 
+map MAP28 "Bad Moon - THIRTY16-25"
+ sky1 stsky7 0.0
+ music d_spin
+ 
+map MAP29 "Toxic Refineries - ZDECTF2-19"
+ sky1 stwall 0.0
+ music d_toxic
+ 
+map MAP30 "Invicto - CORE40"
+ sky1 sky_star 0.0
+ music d_mmx3
+ 
+map MAP31 "Mountain Zero - THIRTY4-31"
+ sky1 sky7 0.0
+ music d_doom2
+ 
+map MAP32 "Insane Gunslinger Compound - THIRTY7-27"
+ sky1 skyhx3 0.0
+ music d_doom3

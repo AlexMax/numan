@@ -1,0 +1,374 @@
+defaultmap{
+	nocrouch
+	nojump
+	sky1 = "SAWSKYMN"
+	}
+
+clearepisodes
+
+gameinfo
+{
+
+playerClasses = "ValiantGuy"
+
+}
+
+
+// ------------------------------------------------------------------------- //
+// Begin Episode Definition                                                  //
+// ------------------------------------------------------------------------- //
+
+episode MAP01{
+	picname = "EP1TTL"
+	key = "1"
+	}
+	
+episode MAP08{
+	picname = "EP2TTL"
+	key = "2"
+	}
+	
+episode MAP14{
+	picname = "EP3TTL"
+	key = "3"
+	}
+	
+episode MAP19{
+	picname = "EP4TTL"
+	key = "4"
+	}
+	
+episode MAP25{
+	picname = "EP5TTLT"
+	key = "5"
+	}
+	
+// ------------------------------------------------------------------------- //
+//  End Episode Definition                                                   //
+// ------------------------------------------------------------------------- //
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
+
+// ------------------------------------------------------------------------- //
+// Begin Cluster Definition                                                  //
+// ------------------------------------------------------------------------- //
+
+clusterdef 1{
+	exittextislump
+	exittext = "E1TEXT"
+	music = "D_READ_M"
+	pic = "e1pic"
+}
+
+clusterdef 2{
+	exittextislump
+	exittext = "E2TEXT"
+	music = "D_READ_M"
+	pic = "e2pic"
+}
+
+clusterdef 3{
+	exittextislump
+	exittext = "E3TEXT"
+	music = "D_READ_M"
+	pic = "e3pic"
+}
+
+clusterdef 4{
+	exittextislump
+	exittext = "E4TEXT"
+	music = "D_READ_M"
+	pic = "e4pic"
+}
+
+clusterdef 5{
+	exittextislump
+	exittext = "E5TEXT"
+	music = "D_READ_M"
+	pic = "bossback"
+}
+
+// ------------------------------------------------------------------------- //
+//  End Cluster Definition                                                   //
+// ------------------------------------------------------------------------- //
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! //
+
+//Ep 1	
+map MAP01 "Bad Reception"{
+	titlepatch = "CWILV00"
+	next = "MAP02"
+	music = "D_RUNNIN"
+	par = 230
+	cluster = 1
+	}
+
+map MAP02 "No Rush"{
+	titlepatch = "CWILV01"
+	next = "MAP03"
+	music = "D_STALKS"
+	par = 105
+	cluster = 1
+	}
+
+map MAP03 "Tiers of Pain"{
+	titlepatch = "CWILV02"
+	next = "MAP04"
+	music = "D_COUNTD"
+	par = 60
+	cluster = 1
+	}
+
+map MAP04 "Moonlit Stroll"{
+	titlepatch = "CWILV03"
+	next = "MAP05"
+	music = "D_BETWEE"
+	par = 270
+	cluster = 1
+	}
+
+map MAP05 "Aggrovator"{
+	titlepatch = "CWILV04"
+	next = "MAP06"
+	music = "D_DOOM"
+	par = 240
+	cluster = 1
+	}
+
+map MAP06 "Engineering Disaster"{
+	titlepatch = "CWILV05"
+	next = "MAP07"
+	music = "D_THE_DA"
+	par = 330
+	cluster = 1
+	}
+
+map MAP07 "The Mancubian Candidate"{
+	titlepatch = "CWILV06"
+		next = endgame{
+		pic = "credit"
+		music = "D_READ_M"
+		}
+	map07special
+	music = "D_SHAWN"
+	par = 240
+	cluster = 1
+	}
+	
+// Ep2
+map MAP08 "Bushwhacked"{
+	titlepatch = "CWILV07"
+	next = "MAP09"
+	music = "D_DDTBLU"
+	par = 300
+	cluster = 2
+	}
+
+map MAP09 "14 Angrier Archviles"{
+	titlepatch = "CWILV08"
+	next = "MAP10"
+	music = "D_IN_CIT"
+	par = 450
+	cluster = 2
+	}
+	
+map MAP10 "Candlecove"{
+	titlepatch = "CWILV09"
+	next = "MAP11"
+	music = "D_DEAD"
+	par = 540
+	cluster = 2
+	}
+
+map MAP11 "Yesterday's Insanity"{
+	titlepatch = "CWILV10"
+	next = "MAP12"
+	music = "D_STLKS2"
+	par = 270
+	cluster = 2
+	}
+
+map MAP12 "Bane Capitol"{
+	titlepatch = "CWILV11"
+	next = "MAP13"
+	music = "D_THEDA2"
+	par = 330
+	cluster = 2
+	}
+
+map MAP13 "The Netweaver"{
+	titlepatch = "CWILV12"
+	next = endgame{
+		pic = "credit"
+		music = "D_READ_M"
+		}
+	music = "D_DOOM2"
+	par = 540
+	cluster = 2
+	}
+
+//Ep3
+map MAP14 "Implosion"{
+	titlepatch = "CWILV13"
+	next = "MAP15"
+	music = "D_DDTBL2"
+	par = 330
+	cluster = 3
+	}
+	
+map MAP15 "Screams aren't a crime... yet"{
+	titlepatch = "CWILV14"
+	next = "MAP16"
+	secretnext = "MAP31"
+	music = "D_RUNNI2"
+	par = 600
+	cluster = 3
+	}
+	
+map MAP16 "Toxic Traverse"{
+	titlepatch = "CWILV15"
+	next = "MAP17"
+	music = "D_DEAD2"
+	par = 390
+	cluster = 3
+	}
+
+map MAP17 "Precipice"{
+	titlepatch = "CWILV16"
+	next = "MAP18"
+	music = "D_STLKS3"
+	par = 540
+	cluster = 3
+	}
+	
+map MAP18 "Crush Depth"{
+	titlepatch = "CWILV17"
+	next = endgame{
+		pic = "credit"
+		music = "D_READ_M"
+		}
+	music = "D_ROMERO"
+	par = 510
+	cluster = 3
+	}
+
+//Ep4
+map MAP19 "The Popes of Roam"{
+	titlepatch = "CWILV18"
+	next = "MAP20"
+	music = "D_SHAWN2"
+	par = 120
+	cluster = 4
+	}
+	
+map MAP20 "Swept Into Immolation"{
+	titlepatch = "CWILV19"
+	next = "MAP21"
+	music = "D_MESSAG"
+	par = 480
+	cluster = 4
+	}
+
+map MAP21 "Skindustrial Zone"{
+	titlepatch = "CWILV20"
+	next = "MAP22"
+	music = "D_COUNT2"
+	par = 420
+	cluster = 4
+	}
+
+map MAP22 "Spiraling Into Nether"{
+	titlepatch = "CWILV21"
+	next = "MAP23"
+	music = "D_DDTBL3"
+	par = 330
+	cluster = 4
+	}
+	
+map MAP23 "Genocide Motor"{
+	titlepatch = "CWILV22"
+	next = "MAP24"
+	music = "D_AMPIE"
+	par = 540
+	cluster = 4
+	}
+
+
+map MAP24 "None More Merciless"{
+	titlepatch = "CWILV23"
+	next = endgame{
+		pic = "credit"
+		music = "D_READ_M"
+		}
+	music = "D_THEDA3"
+	par = 660
+	cluster = 4
+	}
+
+//Ep5
+map MAP25 "The Eagle Has Landed"{
+	titlepatch = "CWILV24"
+	next = "MAP26"
+	music = "D_ADRIAN"
+	par = 270
+	cluster = 5
+	}
+	
+map MAP26 "Blast Wave"{
+	titlepatch = "CWILV25"
+	next = "MAP27"
+	music = "D_MESSG2"
+	par = 360
+	cluster = 5
+	}
+
+map MAP27 "Rocket Zone II"{
+	titlepatch = "CWILV26"
+	next = "MAP28"
+	music = "D_ROMER2"
+	par = 900
+	cluster = 5
+	}
+
+map MAP28 "A Lightbridge Too Far"{
+	titlepatch = "CWILV27"
+	next = "MAP29"
+	music = "D_TENSE"
+	par = 900
+	cluster = 5
+	}
+
+map MAP29 "Red Shift"{
+	titlepatch = "CWILV28"
+	next = "MAP30"
+	music = "D_SHAWN3"
+	par = 480
+	cluster = 5
+	}
+	
+map MAP30 "Electric Nightmare"{
+	titlepatch = "CWILV29"
+	next = "ENDGAMEC"
+	music = "D_OPENIN"
+	par = 360
+	cluster = 5
+	}
+
+//Secret Maps
+map MAP31 "Cyberwar 7734"{
+	titlepatch = "CWILV30"
+	next = "MAP16"
+	secretnext = "MAP32"
+	music = "D_EVIL"
+	par = 1200
+	cluster = 3
+	}
+	
+map MAP32 "The Ghosts of the Old Kingdom"{
+	titlepatch = "CWILV31"
+	next = "MAP16"
+	music = "D_ULTIMA"
+	par = 360
+	cluster = 3
+	}

@@ -1,0 +1,146 @@
+map MAP00 "START"
+	music d_hitflo
+	sky1 SKY1 0
+	nointermission
+	next MAP00
+	lobby
+
+map MAP01 "DOOM 2 MAP01"
+	music d_runnin
+	sky1 SKY4 0
+	next MAP00
+
+map MAP02 "DWANGO 5 MAP01"
+	music d_hitflo
+	sky1 SKY2 0
+	next MAP00
+
+map MAP03 "DWANGO 5 MAP02"
+	music d_d5m2
+	sky1 SKY2 0
+	next MAP00
+
+map MAP04 "Dweller 2 MAP11"
+	music d_runnin
+	sky1 SKY4 0
+	next MAP00
+
+map MAP05 "Judas23"
+	music d_ampie
+	sky1 SKY2 0
+	next MAP00
+
+map MAP06 "Styx8"
+	music d_hitflo
+	sky1 SKY3 0
+	next MAP00
+
+map MAP07 "DWANGO 5 MAP07"
+	music d_d5m7
+	sky1 SKY2 0
+	next MAP00
+
+map MAP08 "PoBla8"
+	music d_runnin
+	sky1 SKY4 0
+	next MAP00
+
+map MAP09 "King1"
+	music d_hitflo
+	sky1 SKY3 0
+	next MAP00
+
+map MAP10 "Boo"
+	music d_runnin
+	sky1 SKY4 0
+	next MAP00
+
+map MAP11 "SSL2"
+	music d_ssl2
+	sky1 SKY4 0
+	next MAP00
+
+map MAP12 "Greenwar MAP20"
+	music d_messag
+	sky1 SKY4 0
+	next MAP00
+
+map MAP13 "Oblivx"
+	music d_oblivx
+	sky1 SKY4 0
+	next MAP00
+			
+map MAP14 "Moo2d"
+	music d_runnin
+	sky1 SKY4 0
+	next MAP00
+
+map MAP15 "Uroburos"
+	music d_uro
+	sky1 SKY3 0
+	next MAP00
+
+map MAP16 "Styx MAP01"
+	music d_runnin
+	sky1 SKY4 0
+	next MAP00
+
+map MAP17 "Lazarus MAP04"
+	music d_laz
+	sky1 SKY3 0
+	next MAP00
+
+map MAP18 "Sipooma"
+	music d_sipoom
+	sky1 SKY3 0
+	next MAP00
+
+map MAP19 "Class219"
+	music d_class
+	sky1 SKY4 0
+	next MAP00
+
+map MAP20 "Eyedea"
+	music d_eyedea
+	sky1 SKY3 0
+	next MAP00
+
+map MAP21 "Shoot"
+	music d_runnin
+	sky1 SKY4 0
+	next MAP00
+
+map MAP22 "Pyrrhic MAP01"
+	music d_p1m1
+	sky1 SKY3 0
+	next MAP00
+
+map MAP23 "Pyrrhic MAP13"
+	music d_p1m13
+	sky1 SKY3 0
+	next MAP00
+
+map MAP24 "Ambush"
+	music d_ambush
+	sky1 SKY3 0
+	next MAP00
+
+map MAP25 "Fatal Premesis"
+	music d_faded
+	sky1 SKY2 0
+	next MAP00
+
+map MAP26 "Brit10 MAP07"
+	music d_brit10
+	sky1 SKY3 0
+	next MAP00
+
+map MAP27 "Brit11 MAP01"
+	music d_brit11
+	sky1 SKY2 0
+	next MAP00
+	
+map MAP28 "Pyrrhic 2 MAP11"
+	music d_p2m11
+	sky1 SKY2 0
+	next MAP00

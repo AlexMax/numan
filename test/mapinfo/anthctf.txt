@@ -1,0 +1,191 @@
+map map01 "Fortress Collision"
+sky1 sky4 0.0
+music d_map01
+next map02
+evenlighting
+
+map map02 "Refineries"
+sky1 sky9 0.0
+music d_map02
+next map03
+evenlighting
+
+map map03 "Exophase"
+sky1 sky7 0.0
+music d_map03
+next map04
+evenlighting
+
+map map04 "Ralphis Magical Ice Forts"
+sky1 sky4 0.0
+music d_map04
+next map05
+evenlighting
+
+map map05 "Blood and Water"
+sky1 sky10 0.0
+music d_map05
+next map06
+evenlighting
+
+map map06 "Cursed"
+sky1 sky10 0.0
+music d_map06
+next map07
+evenlighting
+
+map map07 "The Excavation"
+sky1 sky4 0.0
+music d_map07
+next map08
+evenlighting
+
+map map08 "Something Epic"
+sky1 sky6 0.0
+music d_map08
+next map09
+evenlighting
+
+map map09 "Frozen"
+sky1 sky4 0.0
+music d_map09
+next map10
+evenlighting
+
+map map10 "Outer Limits"
+sky1 sky5 0.0
+music d_map10
+next map11
+evenlighting
+
+map map11 "Tribute"
+sky1 sky7 0.0
+music d_map11
+next map12
+evenlighting
+
+map map12 "SubTerra"
+sky1 sky6 0.0
+music d_map12
+next map13
+evenlighting
+
+map map13 "Twice as Simple"
+sky1 sky10 0.0
+music d_map13
+next map14
+evenlighting
+
+map map14 "Sanguinary Longshot"
+sky1 sky8 0.01
+music d_map14
+next map15
+evenlighting
+
+map map15 "Sewers Smell Bad"
+sky1 sky6 0.0
+music d_map15
+next map16
+evenlighting
+
+map map16 "Return to Phobos"
+sky1 sky6 0.0
+music d_map16
+next map17
+evenlighting
+
+map map17 "Technocracy"
+sky1 sky4 0.0
+music d_map17
+next map18
+evenlighting
+
+map map18 "The Old Castle"
+sky1 sky7 0.0
+music d_map18
+next map19
+evenlighting
+
+map map19 "UAC Headquarters"
+sky1 sky6 0.0
+music d_map19
+next map20
+evenlighting
+
+map map20 "Inner Limits"
+sky1 sky5 0.0
+music d_map20
+next map21
+evenlighting
+
+map map21 "On the Rocks"
+sky1 sky4 0.0
+music d_map21
+next map22
+evenlighting
+
+map map22 "Mainstay"
+sky1 sky8 0.0
+music d_map22
+next map23
+evenlighting
+
+map map23 "Return to Fragport"
+sky1 sky6 0.0
+music d_map23
+next map24
+evenlighting
+
+map map24 "Crawl Space"
+sky1 sky5 0.0
+music d_map24
+next map25
+evenlighting
+
+map map25 "Lethal Industry"
+sky1 sky10 0.2
+music d_map25
+next map26
+evenlighting
+
+map map26 "Status: Idle"
+sky1 sky4 0.0
+music d_map26
+next map27
+evenlighting
+
+map map27 "Exophase III"
+sky1 sky7 0.0
+music d_map27
+next map28
+evenlighting
+
+map map28 "Rites of Passage"
+sky1 sky10 0.0
+music d_map28
+next map29
+evenlighting
+
+map map29 "Under Seige"
+sky1 sky7 0.0
+music d_map29
+next map30
+evenlighting
+
+map map30 "No Limits"
+sky1 sky5 0.0
+music d_map30
+next map31
+evenlighting
+
+map map31 "Mettle"
+sky1 sky4 0.0
+music d_map31
+next map32
+evenlighting
+
+map map32 "BOWL"
+sky1 sky5 0.0
+music d_map32
+next map01
+evenlighting
